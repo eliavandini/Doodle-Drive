@@ -1,0 +1,53 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,7.0.8*%
+%TF.CreationDate,2023-10-22T22:03:38+02:00*%
+%TF.ProjectId,Doodle Drive,446f6f64-6c65-4204-9472-6976652e6b69,1.0V*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Copper,L2,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.8) date 2023-10-22 22:03:38*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,ComponentPad*%
+%ADD10O,1.000000X2.100000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD11O,1.000000X1.800000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD12R,1.700000X1.700000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD13O,1.700000X1.700000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.P,J1,S1,SHIELD*%
+%TO.N,GND*%
+X93832500Y-81815000D03*
+D11*
+X93832500Y-86015000D03*
+D10*
+X102472500Y-81815000D03*
+D11*
+X102472500Y-86015000D03*
+%TD*%
+D12*
+%TO.P,J2,1*%
+%TO.N,+3V3*%
+X88782500Y-82900000D03*
+D13*
+%TO.P,J2,2*%
+%TO.N,PA13*%
+X88782500Y-85440000D03*
+%TO.P,J2,3*%
+%TO.N,PA14*%
+X88782500Y-87980000D03*
+%TO.P,J2,4*%
+%TO.N,GND*%
+X88782500Y-90520000D03*
+%TD*%
+M02*
