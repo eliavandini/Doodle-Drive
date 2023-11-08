@@ -13,3 +13,4 @@
 *.net
 *-cache.lib
 *-rescue.lib
+**.zip
