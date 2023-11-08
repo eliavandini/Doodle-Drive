@@ -427,8 +427,11 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
+      "plot": "",
+      "pos_files": "",
       "specctra_dsn": "",
       "step": "",
+      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -481,8 +484,12 @@
       ""
     ],
     [
-      "6ad8fc5a-2ed4-4f98-aa8e-1656503d9142",
-      "Untitled Sheet"
+      "4a4951fa-be57-4d48-97a5-6be750b353b5",
+      "Motor-driver2"
+    ],
+    [
+      "ce40ab82-c304-4dd2-80f5-b6df1964b151",
+      "Motor-driver1"
     ]
   ],
   "text_variables": {}
