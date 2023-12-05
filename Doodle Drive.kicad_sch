@@ -627,7 +627,7 @@
         )
       )
     )
-    (symbol "Device:R_Potentiometer" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "Device:R_Potentiometer" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "RV" (at -4.445 0 90)
         (effects (font (size 1.27 1.27)))
       )
@@ -5184,6 +5184,39 @@
     )
   )
 
+  (symbol (lib_id "Device:R_Potentiometer") (at 222.885 101.6 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c43549d2-48a0-4fc2-8295-a0031e73d896)
+    (property "Reference" "RV2" (at 230.505 102.87 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "R_Potentiometer" (at 220.98 96.52 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "poti:3386P1473LF" (at 222.885 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 222.885 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 96076816-60b0-4280-a4e6-3a7281cf3948))
+    (pin "2" (uuid 9168ebdd-15f9-46f4-8a63-7afd0f01cdb7))
+    (pin "3" (uuid 0c8fe0d7-bd22-41f4-8264-0f6b4bc2bee1))
+    (instances
+      (project "Doodle Drive"
+        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
+          (reference "RV2") (unit 1)
+        )
+        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
+          (reference "RV1") (unit 1)
+        )
+        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b"
+          (reference "RV4") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+5V") (at 261.62 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c5deaa71-f485-48c8-ad42-832c766ed870)
@@ -5434,36 +5467,6 @@
       (project "Doodle Drive"
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b"
           (reference "#PWR02") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Potentiometer") (at 222.885 101.6 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e18ffee0-a182-4184-9458-278413be1d09)
-    (property "Reference" "RV1" (at 225.425 102.235 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "R_Potentiometer" (at 217.805 93.98 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-    (property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal" (at 222.885 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 222.885 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 465df06f-b94b-4c32-9b52-ff76f594f43e))
-    (pin "2" (uuid 625d192c-2f58-4e77-8007-ebc45d3bb645))
-    (pin "3" (uuid 9ed24f68-df16-4b58-82ab-09e43d6e0492))
-    (instances
-      (project "Doodle Drive"
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
-          (reference "RV1") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b"
-          (reference "RV5") (unit 1)
         )
       )
     )
