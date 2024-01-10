@@ -1,0 +1,120 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "3386P-1-473LF"
+   (description "Trimmer Resistors - Through Hole 3/8\" 47Kohms 10% 0.5Watts Square")
+   (family "ANA")
+   (package "3386P1473LF")
+   (attribute "Datasheet Link" "https://www.bourns.com/docs/Product-Datasheets/3386.pdf")
+   (attribute "Geometry.Height" "5.08mm")
+   (attribute "Mouser Part Number" "652-3386P-1-473LF")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/3386P-1-473LF?qs=g1MxsQ5vwlQqJF6lV59CvQ%3D%3D")
+   (attribute "Manufacturer_Name" "Bourns")
+   (attribute "Manufacturer_Part_Number" "3386P-1-473LF")
+   (gate
+    (symbol "3386P-1-473LF")
+    (pin "CCW" 1 PS)
+    (pin "WIPER" 2 PS)
+    (pin "CW" 3 PS)
+   )
+  )
+  (symbol "3386P-1-473LF"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 900 100) (pt 900 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "3386P1473LF"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -7.305 4.75)
+      (pt 2.225 4.75)
+      (pt 2.225 -4.78)
+      (pt -7.305 -4.78)
+      (pt -7.305 4.75))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -7.305 -4.78)
+      (pt 2.225 -4.78)
+      (pt 2.225 4.75)
+      (pt -7.305 4.75)
+      (pt -7.305 -4.78))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -8.305 -5.78)
+      (pt 3.225 -5.78)
+      (pt 3.225 5.75)
+      (pt -8.305 5.75)
+      (pt -8.305 -5.78))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 2.8 0)
+      (arc (pt 2.800 0.000) (pt 2.700 -0.050) (pt 2.800 0.050) (start 180.0) (sweep .0))
+      (pt 2.7 0)
+      (arc (pt 2.700 0.000) (pt 2.700 -0.050) (pt 2.800 0.050) (start 180.0) (sweep -180.0))
+      (pt 2.8 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt -2.540 2.540) (padstack 0))
+   (leg 3 (pt -5.080 0.000) (padstack 0))
+   (padstack 0
+    (hole 0.71)
+    (plated true)
+    (pad (layer TCOP) (round 1.217))
+    (pad (layer INNER) (round 1.217))
+    (pad (layer BCOP) (round 1.217))
+   )
+   (padstack 1
+    (hole 0.71)
+    (plated true)
+    (pad (layer TCOP) (square 1.217))
+    (pad (layer INNER) (round 1.217))
+    (pad (layer BCOP) (square 1.217))
+   )
+   (model "3386P-1-473LF.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

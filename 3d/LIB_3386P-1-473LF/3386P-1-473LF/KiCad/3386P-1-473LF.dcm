@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 3386P-1-473LF
+D Trimmer Resistors - Through Hole 3/8" 47Kohms 10% 0.5Watts Square
+K
+F https://www.bourns.com/docs/Product-Datasheets/3386.pdf
+$ENDCMP
+#
+#End Doc Library

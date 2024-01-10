@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MC-306_32_7680K-E3_ROHS"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-06-07-11:41:57)
+    (mountForm default
+        (footprintRef "MC306327680KE3ROHS")
+        (spec "System")
+    )
+)

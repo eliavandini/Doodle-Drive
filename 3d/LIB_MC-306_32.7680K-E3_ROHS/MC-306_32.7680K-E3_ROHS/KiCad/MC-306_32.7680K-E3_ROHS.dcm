@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MC-306_32.7680K-E3_ROHS
+D Crystals 32.768KHz 6pF 20ppm -40C +85C
+K
+F https://componentsearchengine.com/Datasheets/1/MC-306 32.7680K-E3_ROHS.pdf
+$ENDCMP
+#
+#End Doc Library

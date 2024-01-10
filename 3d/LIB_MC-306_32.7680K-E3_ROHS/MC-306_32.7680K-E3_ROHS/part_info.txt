@@ -1,0 +1,9 @@
+Manufacturer=Epson Timing
+PartNumber=MC-306 32.7680K-E3:ROHS
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=4
+Version=1.1
+Released=2019-06-07 11:41:57
+Downloaded=2023-10-21 20:14:57
+3D=Y

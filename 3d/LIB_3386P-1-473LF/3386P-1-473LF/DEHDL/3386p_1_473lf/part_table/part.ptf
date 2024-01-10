@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '3386P_1_473LF'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "3386P-1-473LF" (!) = "", "3386P1473LF", "Other", "652-3386P-1-473LF", "https://www.mouser.co.uk/ProductDetail/Bourns/3386P-1-473LF?qs=g1MxsQ5vwlQqJF6lV59CvQ%3D%3D", "Trimmer Resistors - Through Hole 3/8" 47Kohms 10% 0.5Watts Square", "https://www.bourns.com/docs/Product-Datasheets/3386.pdf", "5.08 mm"
+END_PART
+
+END.
