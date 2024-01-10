@@ -1804,9 +1804,6 @@
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "J9") (unit 1)
         )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "J3") (unit 1)
-        )
       )
     )
   )
@@ -1832,9 +1829,6 @@
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "#PWR047") (unit 1)
         )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "#PWR072") (unit 1)
-        )
       )
     )
   )
@@ -1842,7 +1836,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 69.85 116.205 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 16a6caae-ceb4-4d0d-ad05-96ab07f5d5e3)
-    (property "Reference" "RV3" (at 67.31 114.935 90)
+    (property "Reference" "RV6" (at 67.31 114.935 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "R_Potentiometer" (at 71.755 121.285 0)
@@ -1859,14 +1853,8 @@
     (pin "3" (uuid 3e821fc1-dfb9-422b-9efc-924f7692a780))
     (instances
       (project "Doodle Drive"
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
-          (reference "RV3") (unit 1)
-        )
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "RV6") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "RV4") (unit 1)
         )
       )
     )
@@ -1894,9 +1882,6 @@
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "R13") (unit 1)
         )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "R38") (unit 1)
-        )
       )
     )
   )
@@ -1923,9 +1908,6 @@
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "C5") (unit 1)
         )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "C40") (unit 1)
-        )
       )
     )
   )
@@ -1933,7 +1915,7 @@
   (symbol (lib_id "power:+15V") (at 123.825 92.075 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 27f29e0e-fca3-493c-abb3-c03a59bd9398)
-    (property "Reference" "#PWR067" (at 123.825 95.885 0)
+    (property "Reference" "#PWR071" (at 123.825 95.885 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+15V" (at 123.825 86.995 0)
@@ -1948,9 +1930,6 @@
     (pin "1" (uuid 480ed510-e71a-457a-898c-49e70bbf3251))
     (instances
       (project "Doodle Drive"
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
-          (reference "#PWR067") (unit 1)
-        )
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "#PWR071") (unit 1)
         )
@@ -1961,7 +1940,7 @@
   (symbol (lib_id "PCM_SL_Devices:Resistor") (at 201.93 46.99 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2b77ffc4-d808-4145-adb0-ea86f8aa347a)
-    (property "Reference" "R20" (at 203.835 45.72 90)
+    (property "Reference" "R5" (at 203.835 45.72 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (at 203.835 48.26 90)
@@ -1977,14 +1956,8 @@
     (pin "2" (uuid f4e3be55-6aea-437b-843b-a83f7f9bac3e))
     (instances
       (project "Doodle Drive"
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
-          (reference "R20") (unit 1)
-        )
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "R5") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "R36") (unit 1)
         )
       )
     )
@@ -2010,9 +1983,6 @@
       (project "Doodle Drive"
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "#PWR040") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -2040,9 +2010,6 @@
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "C24") (unit 1)
         )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "C39") (unit 1)
-        )
       )
     )
   )
@@ -2050,7 +2017,7 @@
   (symbol (lib_id "PCM_SL_Devices:Resistor") (at 125.095 125.095 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3524320a-0cc3-4fac-95cb-a46fb0124720)
-    (property "Reference" "R39" (at 121.285 127.635 0)
+    (property "Reference" "R21" (at 121.285 127.635 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 123.19 127.635 0)
@@ -2066,14 +2033,8 @@
     (pin "2" (uuid feb4ee02-f4a8-4cc7-9226-206d53929057))
     (instances
       (project "Doodle Drive"
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
-          (reference "R39") (unit 1)
-        )
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "R21") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "R29") (unit 1)
         )
       )
     )
@@ -2082,7 +2043,7 @@
   (symbol (lib_id "power:+15V") (at 208.28 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 383fd17f-e672-42d7-bf71-724a7633a80b)
-    (property "Reference" "#PWR067" (at 208.28 113.03 0)
+    (property "Reference" "#PWR073" (at 208.28 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+15V" (at 208.28 104.14 0)
@@ -2097,9 +2058,6 @@
     (pin "1" (uuid 109d4833-877d-4ee4-a4e0-a46d5e07ce63))
     (instances
       (project "Doodle Drive"
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
-          (reference "#PWR067") (unit 1)
-        )
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "#PWR073") (unit 1)
         )
@@ -2129,9 +2087,6 @@
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "C22") (unit 1)
         )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "C37") (unit 1)
-        )
       )
     )
   )
@@ -2139,7 +2094,7 @@
   (symbol (lib_id "PCM_SL_Devices:Resistor") (at 69.85 105.41 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47c5f746-59d7-4852-b5e3-c6455d5de865)
-    (property "Reference" "R20" (at 71.755 104.14 90)
+    (property "Reference" "R7" (at 71.755 104.14 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (at 71.755 106.68 90)
@@ -2155,14 +2110,8 @@
     (pin "2" (uuid bff4290c-d5c8-4588-8e33-09af220fa062))
     (instances
       (project "Doodle Drive"
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
-          (reference "R20") (unit 1)
-        )
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "R7") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "R20") (unit 1)
         )
       )
     )
@@ -2171,7 +2120,7 @@
   (symbol (lib_id "power:+15V") (at 76.2 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 483c9c28-d6bd-428d-a45a-b0647d1aaaa1)
-    (property "Reference" "#PWR067" (at 76.2 171.45 0)
+    (property "Reference" "#PWR070" (at 76.2 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+15V" (at 76.2 162.56 0)
@@ -2186,9 +2135,6 @@
     (pin "1" (uuid 70f2d44e-ce93-445c-a653-84661e2e727b))
     (instances
       (project "Doodle Drive"
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
-          (reference "#PWR067") (unit 1)
-        )
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "#PWR070") (unit 1)
         )
@@ -2199,7 +2145,7 @@
   (symbol (lib_id "PCM_SL_Devices:Resistor") (at 258.445 59.69 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 49193c20-fd11-4f36-84e3-f840bba77726)
-    (property "Reference" "R3" (at 257.81 60.96 0)
+    (property "Reference" "R19" (at 257.81 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.1k" (at 258.445 59.69 0)
@@ -2215,17 +2161,8 @@
     (pin "2" (uuid acb2ecd8-0fb8-446f-a822-c215ada95fa3))
     (instances
       (project "Doodle Drive"
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b"
-          (reference "R3") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
-          (reference "R40") (unit 1)
-        )
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "R19") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "R43") (unit 1)
         )
       )
     )
@@ -2234,7 +2171,7 @@
   (symbol (lib_id "power:GND") (at 130.81 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4db57ce4-0004-4e5b-b23a-e88098d0352f)
-    (property "Reference" "#PWR014" (at 130.81 135.89 0)
+    (property "Reference" "#PWR046" (at 130.81 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.81 133.985 0)
@@ -2249,17 +2186,8 @@
     (pin "1" (uuid ec19ec07-2cd4-4f95-a7e0-c97db29da100))
     (instances
       (project "Doodle Drive"
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b"
-          (reference "#PWR014") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
-          (reference "#PWR060") (unit 1)
-        )
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "#PWR046") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -2268,7 +2196,7 @@
   (symbol (lib_id "PCM_SL_Devices:Resistor") (at 126.365 118.11 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4f7d9b63-f240-40f7-8419-cd32eb0d764b)
-    (property "Reference" "R3" (at 126.365 120.015 0)
+    (property "Reference" "R22" (at 126.365 120.015 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.1k" (at 126.365 118.11 0)
@@ -2284,17 +2212,8 @@
     (pin "2" (uuid ba4bd0b4-a45e-4bdf-aaf8-a2d7e2c744f6))
     (instances
       (project "Doodle Drive"
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b"
-          (reference "R3") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
-          (reference "R40") (unit 1)
-        )
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "R22") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "R32") (unit 1)
         )
       )
     )
@@ -2303,7 +2222,7 @@
   (symbol (lib_id "power:+3V3") (at 69.85 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5efd679e-daa0-472a-a637-b22d7db6f0ec)
-    (property "Reference" "#PWR016" (at 69.85 104.14 0)
+    (property "Reference" "#PWR032" (at 69.85 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 69.85 95.25 0)
@@ -2318,14 +2237,8 @@
     (pin "1" (uuid 701c086c-6448-43c6-b4af-84fef413fa70))
     (instances
       (project "Doodle Drive"
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
-          (reference "#PWR016") (unit 1)
-        )
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "#PWR032") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "#PWR066") (unit 1)
         )
       )
     )
@@ -2352,9 +2265,6 @@
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "#PWR041") (unit 1)
         )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "#PWR069") (unit 1)
-        )
       )
     )
   )
@@ -2362,7 +2272,7 @@
   (symbol (lib_id "PCM_SL_Devices:Resistor") (at 257.175 66.675 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 60907813-a685-4888-9377-90190679d8b4)
-    (property "Reference" "R39" (at 253.365 69.215 0)
+    (property "Reference" "R18" (at 253.365 69.215 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 255.27 69.215 0)
@@ -2378,14 +2288,8 @@
     (pin "2" (uuid 1ae90bc2-c280-41ae-abb8-dee8a4a3385a))
     (instances
       (project "Doodle Drive"
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
-          (reference "R39") (unit 1)
-        )
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "R18") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "R42") (unit 1)
         )
       )
     )
@@ -2508,9 +2412,6 @@
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "U2") (unit 1)
         )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "U9") (unit 1)
-        )
       )
     )
   )
@@ -2535,9 +2436,6 @@
       (project "Doodle Drive"
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "#PWR063") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "#PWR074") (unit 1)
         )
       )
     )
@@ -2565,9 +2463,6 @@
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "C15") (unit 1)
         )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "C35") (unit 1)
-        )
       )
     )
   )
@@ -2594,9 +2489,6 @@
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "R14") (unit 1)
         )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "R41") (unit 1)
-        )
       )
     )
   )
@@ -2621,9 +2513,6 @@
       (project "Doodle Drive"
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "#PWR044") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "#PWR079") (unit 1)
         )
       )
     )
@@ -2650,9 +2539,6 @@
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "#PWR036") (unit 1)
         )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "#PWR075") (unit 1)
-        )
       )
     )
   )
@@ -2660,7 +2546,7 @@
   (symbol (lib_id "power:GND") (at 262.89 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7e3f9e1d-84dd-40ac-a135-e91b4d013043)
-    (property "Reference" "#PWR014" (at 262.89 77.47 0)
+    (property "Reference" "#PWR043" (at 262.89 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 262.89 75.565 0)
@@ -2675,17 +2561,8 @@
     (pin "1" (uuid 450393f0-2c1a-4dfa-8bf9-e98297712aaf))
     (instances
       (project "Doodle Drive"
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b"
-          (reference "#PWR014") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
-          (reference "#PWR060") (unit 1)
-        )
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "#PWR043") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "#PWR078") (unit 1)
         )
       )
     )
@@ -2713,9 +2590,6 @@
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "R17") (unit 1)
         )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "R28") (unit 1)
-        )
       )
     )
   )
@@ -2742,9 +2616,6 @@
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "C16") (unit 1)
         )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "C36") (unit 1)
-        )
       )
     )
   )
@@ -2770,9 +2641,6 @@
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "#PWR045") (unit 1)
         )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "#PWR070") (unit 1)
-        )
       )
     )
   )
@@ -2780,7 +2648,7 @@
   (symbol (lib_id "power:+3V3") (at 201.93 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9e9f6fee-2fe4-4c6a-80c5-47df44f4d388)
-    (property "Reference" "#PWR016" (at 201.93 45.72 0)
+    (property "Reference" "#PWR017" (at 201.93 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 201.93 36.83 0)
@@ -2795,14 +2663,8 @@
     (pin "1" (uuid 07aa5a9b-1cd6-4335-9b3a-330cad1fc193))
     (instances
       (project "Doodle Drive"
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
-          (reference "#PWR016") (unit 1)
-        )
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "#PWR017") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "#PWR073") (unit 1)
         )
       )
     )
@@ -2811,7 +2673,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 201.93 57.785 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a3f41cd3-2f7b-4dee-b983-e1e0aa9001fe)
-    (property "Reference" "RV2" (at 194.31 56.515 90)
+    (property "Reference" "RV1" (at 194.31 56.515 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "R_Potentiometer" (at 203.835 62.865 0)
@@ -2828,9 +2690,6 @@
     (pin "3" (uuid 5fc4985a-9927-46ec-8f4e-a5fe2c267177))
     (instances
       (project "Doodle Drive"
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
-          (reference "RV2") (unit 1)
-        )
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "RV1") (unit 1)
         )
@@ -2860,9 +2719,6 @@
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "C23") (unit 1)
         )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "C38") (unit 1)
-        )
       )
     )
   )
@@ -2889,9 +2745,6 @@
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "C20") (unit 1)
         )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "C43") (unit 1)
-        )
       )
     )
   )
@@ -2899,7 +2752,7 @@
   (symbol (lib_id "Device:LED") (at 262.89 64.77 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c768dc14-0455-4c84-8df4-6454974a09e4)
-    (property "Reference" "D2" (at 266.7 65.0875 90)
+    (property "Reference" "D3" (at 266.7 65.0875 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED_RED" (at 266.7 67.6275 90)
@@ -2915,17 +2768,8 @@
     (pin "2" (uuid bac0ef5f-c3b2-4049-93dc-81e2c9806086))
     (instances
       (project "Doodle Drive"
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b"
-          (reference "D2") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
-          (reference "D6") (unit 1)
-        )
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "D3") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "D8") (unit 1)
         )
       )
     )
@@ -2951,9 +2795,6 @@
       (project "Doodle Drive"
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "#PWR039") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "#PWR076") (unit 1)
         )
       )
     )
@@ -2981,9 +2822,6 @@
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "C11") (unit 1)
         )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "C41") (unit 1)
-        )
       )
     )
   )
@@ -3008,9 +2846,6 @@
       (project "Doodle Drive"
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "#PWR042") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "#PWR077") (unit 1)
         )
       )
     )
@@ -3038,9 +2873,6 @@
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "R16") (unit 1)
         )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "R27") (unit 1)
-        )
       )
     )
   )
@@ -3067,9 +2899,6 @@
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "C18") (unit 1)
         )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "C37") (unit 1)
-        )
       )
     )
   )
@@ -3077,7 +2906,7 @@
   (symbol (lib_id "power:+15V") (at 255.905 33.655 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e9a7065b-e693-42a0-96f8-288ac8a5a7ee)
-    (property "Reference" "#PWR067" (at 255.905 37.465 0)
+    (property "Reference" "#PWR072" (at 255.905 37.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+15V" (at 255.905 28.575 0)
@@ -3092,9 +2921,6 @@
     (pin "1" (uuid 1595a076-1d75-41d2-9c96-023db7f342d6))
     (instances
       (project "Doodle Drive"
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
-          (reference "#PWR067") (unit 1)
-        )
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "#PWR072") (unit 1)
         )
@@ -3124,9 +2950,6 @@
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "C21") (unit 1)
         )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "C44") (unit 1)
-        )
       )
     )
   )
@@ -3151,9 +2974,6 @@
       (project "Doodle Drive"
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "#PWR062") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "#PWR067") (unit 1)
         )
       )
     )
@@ -3181,9 +3001,6 @@
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "R12") (unit 1)
         )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "R37") (unit 1)
-        )
       )
     )
   )
@@ -3191,7 +3008,7 @@
   (symbol (lib_id "Device:LED") (at 130.81 123.19 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fb59870b-1798-47e9-a17f-2343c5dbedcf)
-    (property "Reference" "D2" (at 134.62 123.5075 90)
+    (property "Reference" "D4" (at 134.62 123.5075 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED_RED" (at 134.62 126.0475 90)
@@ -3207,17 +3024,8 @@
     (pin "2" (uuid d2c20783-5525-40c7-8982-0c863110f2dc))
     (instances
       (project "Doodle Drive"
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b"
-          (reference "D2") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
-          (reference "D6") (unit 1)
-        )
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "D4") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "D7") (unit 1)
         )
       )
     )
@@ -3340,9 +3148,6 @@
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "U3") (unit 1)
         )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "U8") (unit 1)
-        )
       )
     )
   )
@@ -3368,9 +3173,6 @@
       (project "Doodle Drive"
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "R15") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "R23") (unit 1)
         )
       )
     )
@@ -3399,9 +3201,6 @@
       (project "Doodle Drive"
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
           (reference "J8") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "J4") (unit 1)
         )
       )
     )

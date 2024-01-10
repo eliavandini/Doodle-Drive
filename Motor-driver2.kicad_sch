@@ -1493,6 +1493,13 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
+  (global_label "PC0" (shape input) (at 116.84 144.145 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 13cdaba1-9705-4d19-b4d6-e88f5cc78b71)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 110.1053 144.145 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "~{FAULT3}" (shape input) (at 99.06 108.585 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 17a9033e-3eec-4117-bea8-22e1659a72ee)
@@ -1514,13 +1521,6 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "PB5" (shape input) (at 116.84 141.605 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 24801d04-2961-4763-95e6-4502088430c2)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 110.1053 141.605 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
   (global_label "~{SLEEP3}" (shape input) (at 118.745 151.765 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 26a6d586-6a76-4e39-81ae-aea5d4c255e1)
@@ -1535,10 +1535,31 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
+  (global_label "PB9" (shape input) (at 116.84 141.605 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 3b473e8b-2365-40cd-ae41-1b7a9eec7bdc)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 110.1053 141.605 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "PB7" (shape input) (at 116.84 149.225 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 40cdda92-5214-444e-a7bf-cb345c40dfed)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 110.1053 149.225 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "~{HOME3}" (shape input) (at 92.71 112.395 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 455e3bd2-4aca-418b-83d5-9fbb7f99c89d)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 92.71 123.1816 90)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "PB8" (shape input) (at 116.84 151.765 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 4ad4a3a2-a1c9-4b40-a400-6067aa4be23d)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 110.1053 151.765 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -1584,24 +1605,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "PB9" (shape input) (at 116.84 139.065 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 8c5d166e-e626-424e-a382-bd989e3894bc)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 110.1053 139.065 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
   (global_label "PA15" (shape input) (at 180.975 34.29 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 908d10a5-0363-4f16-a9fa-ea9b0d3b9e51)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 173.2122 34.29 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "PC1" (shape input) (at 116.84 151.765 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 9519f3f8-3942-42fa-8fc3-1874d9fd98fd)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 110.1053 151.765 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -1675,6 +1682,20 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
+  (global_label "PB5" (shape input) (at 116.84 146.685 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid c2befee6-d708-4662-9de4-e50dc57adfee)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 110.1053 146.685 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "PC1" (shape input) (at 116.84 139.065 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid cc080905-e00e-4927-9793-f80c3f2c521d)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 110.1053 139.065 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "DIR4" (shape input) (at 201.295 97.79 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid e27e82c7-1f56-49e9-b5e9-ca969a40ac43)
@@ -1689,20 +1710,6 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "PC0" (shape input) (at 116.84 149.225 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid ec1eb395-0dcf-4d1a-a754-6ac8b34a86c8)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 110.1053 149.225 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "PB8" (shape input) (at 116.84 146.685 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid eed64dde-d1f2-4f3b-8928-accb36d0a565)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 110.1053 146.685 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
   (global_label "PC12" (shape input) (at 180.975 31.75 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid f0d7778f-419a-486a-954a-6ae4d6c77cba)
@@ -1715,13 +1722,6 @@
     (uuid f2406160-d78d-43f6-82bf-c88b6c3a1b72)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 127.5358 141.605 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "PB7" (shape input) (at 116.84 144.145 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid f31496d5-145d-4fc6-a143-f3adffa087db)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 110.1053 144.145 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "~{RESET4}" (shape input) (at 203.835 87.63 180) (fields_autoplaced)
@@ -1806,9 +1806,6 @@
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
           (reference "#PWR016") (unit 1)
         )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
-          (reference "#PWR032") (unit 1)
-        )
       )
     )
   )
@@ -1892,7 +1889,7 @@
   (symbol (lib_id "Device:C") (at 245.745 72.39 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 23c5d040-f5ad-4ae5-838d-0c44a4ec4d4a)
-    (property "Reference" "C22" (at 245.745 65.405 90)
+    (property "Reference" "C32" (at 245.745 65.405 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uF" (at 246.38 68.58 90)
@@ -1908,12 +1905,6 @@
     (pin "2" (uuid ddad165b-2aa9-4864-9a44-3a165154e598))
     (instances
       (project "Doodle Drive"
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
-          (reference "C22") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "C37") (unit 1)
-        )
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
           (reference "C32") (unit 1)
         )
@@ -1952,7 +1943,7 @@
   (symbol (lib_id "PCM_SL_Devices:Resistor") (at 243.205 97.79 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 299fad3e-42eb-4fb5-b198-d447c41035ff)
-    (property "Reference" "R3" (at 242.57 99.06 0)
+    (property "Reference" "R40" (at 242.57 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.1k" (at 243.205 97.79 0)
@@ -1968,9 +1959,6 @@
     (pin "2" (uuid 471056e5-e440-4c39-8759-08a3a5312abc))
     (instances
       (project "Doodle Drive"
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b"
-          (reference "R3") (unit 1)
-        )
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
           (reference "R40") (unit 1)
         )
@@ -2102,9 +2090,6 @@
       (project "Doodle Drive"
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
           (reference "RV2") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
-          (reference "RV6") (unit 1)
         )
       )
     )
@@ -2286,9 +2271,6 @@
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
           (reference "R11") (unit 1)
         )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
-          (reference "R7") (unit 1)
-        )
       )
     )
   )
@@ -2347,7 +2329,7 @@
   (symbol (lib_id "PCM_SL_Devices:Resistor") (at 91.44 108.585 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7f4d9463-d868-4108-afc0-6b5646d604fb)
-    (property "Reference" "R3" (at 90.805 109.855 0)
+    (property "Reference" "R31" (at 90.805 109.855 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.1k" (at 91.44 108.585 0)
@@ -2363,9 +2345,6 @@
     (pin "2" (uuid 9fa1946c-e9f6-42e1-88e9-725a82ac9daa))
     (instances
       (project "Doodle Drive"
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b"
-          (reference "R3") (unit 1)
-        )
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
           (reference "R31") (unit 1)
         )
@@ -2393,9 +2372,6 @@
       (project "Doodle Drive"
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
           (reference "#PWR058") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
-          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -2429,7 +2405,7 @@
   (symbol (lib_id "Device:LED") (at 95.885 113.665 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 88a82e5e-930a-473a-9b96-d8a141be1020)
-    (property "Reference" "D2" (at 99.695 113.9825 90)
+    (property "Reference" "D5" (at 99.695 113.9825 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED_RED" (at 99.695 116.5225 90)
@@ -2445,9 +2421,6 @@
     (pin "2" (uuid 8fd3be40-b1af-4e9c-aca0-2585bd44b74b))
     (instances
       (project "Doodle Drive"
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b"
-          (reference "D2") (unit 1)
-        )
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
           (reference "D5") (unit 1)
         )
@@ -2736,7 +2709,7 @@
   (symbol (lib_id "Device:LED") (at 247.65 102.87 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a1fe5cf3-1584-47ee-b78c-b646789ab6c6)
-    (property "Reference" "D2" (at 251.46 103.1875 90)
+    (property "Reference" "D6" (at 251.46 103.1875 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED_RED" (at 251.46 105.7275 90)
@@ -2752,9 +2725,6 @@
     (pin "2" (uuid 3f0a0347-0010-409c-a1d0-bf5d7872562d))
     (instances
       (project "Doodle Drive"
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b"
-          (reference "D2") (unit 1)
-        )
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
           (reference "D6") (unit 1)
         )
@@ -2816,7 +2786,7 @@
   (symbol (lib_id "power:GND") (at 189.23 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba9a9319-fbc3-46b6-9ecf-f3ed0e243601)
-    (property "Reference" "#PWR062" (at 189.23 102.87 0)
+    (property "Reference" "#PWR065" (at 189.23 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 189.23 100.965 0)
@@ -2831,9 +2801,6 @@
     (pin "1" (uuid f2892a29-89cb-437b-a447-ee1e61a0a55a))
     (instances
       (project "Doodle Drive"
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
-          (reference "#PWR062") (unit 1)
-        )
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
           (reference "#PWR065") (unit 1)
         )
@@ -2916,9 +2883,6 @@
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
           (reference "RV3") (unit 1)
         )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
-          (reference "RV6") (unit 1)
-        )
       )
     )
   )
@@ -2926,7 +2890,7 @@
   (symbol (lib_id "power:GND") (at 247.65 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d56147c6-da67-4709-81bf-a22a4968b294)
-    (property "Reference" "#PWR014" (at 247.65 115.57 0)
+    (property "Reference" "#PWR060" (at 247.65 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 247.65 113.665 0)
@@ -2941,9 +2905,6 @@
     (pin "1" (uuid a6fa7cee-647c-4d65-996f-443e2b1d79f0))
     (instances
       (project "Doodle Drive"
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b"
-          (reference "#PWR014") (unit 1)
-        )
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
           (reference "#PWR060") (unit 1)
         )
@@ -2980,7 +2941,7 @@
   (symbol (lib_id "power:GND") (at 37.465 107.315 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid db9c5436-5e52-41af-9a8c-176ff1b1066c)
-    (property "Reference" "#PWR062" (at 37.465 113.665 0)
+    (property "Reference" "#PWR064" (at 37.465 113.665 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 37.465 111.76 0)
@@ -2995,9 +2956,6 @@
     (pin "1" (uuid 9468c535-2c44-4e18-a396-be6eb2a5b24b))
     (instances
       (project "Doodle Drive"
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
-          (reference "#PWR062") (unit 1)
-        )
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
           (reference "#PWR064") (unit 1)
         )
@@ -3173,9 +3131,6 @@
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
           (reference "R10") (unit 1)
         )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
-          (reference "R7") (unit 1)
-        )
       )
     )
   )
@@ -3183,7 +3138,7 @@
   (symbol (lib_id "Device:C") (at 93.98 83.185 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fa52e36a-0b12-4d4e-b2d3-c67648193b51)
-    (property "Reference" "C22" (at 93.98 76.2 90)
+    (property "Reference" "C27" (at 93.98 76.2 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uF" (at 94.615 79.375 90)
@@ -3199,12 +3154,6 @@
     (pin "2" (uuid 3174583f-6a32-4c59-bdea-94122a824322))
     (instances
       (project "Doodle Drive"
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/ce40ab82-c304-4dd2-80f5-b6df1964b151"
-          (reference "C22") (unit 1)
-        )
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/bef0954e-6024-4756-b9a6-5ea2a0825f13"
-          (reference "C37") (unit 1)
-        )
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
           (reference "C27") (unit 1)
         )
@@ -3215,7 +3164,7 @@
   (symbol (lib_id "power:GND") (at 95.885 120.015 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fc70e250-9128-4435-b9a7-7c80ae7beab3)
-    (property "Reference" "#PWR014" (at 95.885 126.365 0)
+    (property "Reference" "#PWR053" (at 95.885 126.365 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 95.885 124.46 0)
@@ -3230,9 +3179,6 @@
     (pin "1" (uuid 958ef0d5-063b-4b59-9b4e-03f436b6344a))
     (instances
       (project "Doodle Drive"
-        (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b"
-          (reference "#PWR014") (unit 1)
-        )
         (path "/3ec634aa-8c09-482d-9325-2288a4dbd68b/4a4951fa-be57-4d48-97a5-6be750b353b5"
           (reference "#PWR053") (unit 1)
         )
