@@ -709,10 +709,6 @@
     [
       "4a4951fa-be57-4d48-97a5-6be750b353b5",
       "Motor-driver2"
-    ],
-    [
-      "bef0954e-6024-4756-b9a6-5ea2a0825f13",
-      "stm-connector"
     ]
   ],
   "text_variables": {}
